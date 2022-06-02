@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{8F619A5C-4187-44D9-B8A7-38C739568C8C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>HotelManagementSys</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AdminLogin.cpp" />
+    <ClCompile Include="AdmMngCust.cpp" />
+    <ClCompile Include="AdmMngUser.cpp" />
+    <ClCompile Include="CustBHistory.cpp" />
+    <ClCompile Include="CustBookRoom.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="CustomerLogin.cpp" />
+    <ClCompile Include="CustomerRegister.cpp" />
+    <ClCompile Include="CustSearchRoom.cpp" />
+    <ClCompile Include="HMS.cpp" />
+    <ClCompile Include="hmsHomepage.cpp" />
+    <ClCompile Include="HotelAddRoom.cpp" />
+    <ClCompile Include="HotelBookings.cpp" />
+    <ClCompile Include="HotelEditRoom.cpp" />
+    <ClCompile Include="HotelOccupyRoom.cpp" />
+    <ClCompile Include="HotelRoom.cpp" />
+    <ClCompile Include="HRbilling.cpp" />
+    <ClCompile Include="HRcrudItem.cpp" />
+    <ClCompile Include="HRestaurant.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserLogin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admindata.h" />
+    <ClInclude Include="AdminLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdmMngCust.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdmMngUser.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CustBHistory.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CustBookRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="customerdata.h" />
+    <ClInclude Include="CustomerLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CustomerRegister.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CustSearchRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HMS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="hmsHomepage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelAddRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelBookings.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelEditRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelOccupyRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelRoom.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HRbilling.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HRcrudItem.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HRestaurant.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="userdata.h" />
+    <ClInclude Include="UserLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmMngCust.resx">
+      <DependentUpon>AdmMngCust.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmMngUser.resx">
+      <DependentUpon>AdmMngUser.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustBHistory.resx">
+      <DependentUpon>CustBHistory.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustBookRoom.resx">
+      <DependentUpon>CustBookRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLogin.resx">
+      <DependentUpon>CustomerLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerRegister.resx">
+      <DependentUpon>CustomerRegister.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustSearchRoom.resx">
+      <DependentUpon>CustSearchRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HMS.resx">
+      <DependentUpon>HMS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hmsHomepage.resx">
+      <DependentUpon>hmsHomepage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelAddRoom.resx">
+      <DependentUpon>HotelAddRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelBookings.resx">
+      <DependentUpon>HotelBookings.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelEditRoom.resx">
+      <DependentUpon>HotelEditRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelOccupyRoom.resx">
+      <DependentUpon>HotelOccupyRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelRoom.resx">
+      <DependentUpon>HotelRoom.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRbilling.resx">
+      <DependentUpon>HRbilling.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRcrudItem.resx">
+      <DependentUpon>HRcrudItem.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRestaurant.resx">
+      <DependentUpon>HRestaurant.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
