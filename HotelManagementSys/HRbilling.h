@@ -199,7 +199,7 @@ namespace HotelManagementSys {
 			// 
 			this->label1->AutoSize = true;
 			this->label1->Enabled = false;
-			this->label1->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label1->ForeColor = System::Drawing::Color::Blue;
 			this->label1->Location = System::Drawing::Point(86, 90);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(44, 16);
@@ -265,7 +265,7 @@ namespace HotelManagementSys {
 			// 
 			this->label3->AutoSize = true;
 			this->label3->Enabled = false;
-			this->label3->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label3->ForeColor = System::Drawing::Color::Blue;
 			this->label3->Location = System::Drawing::Point(86, 135);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(44, 16);
@@ -310,7 +310,7 @@ namespace HotelManagementSys {
 			// 
 			this->label5->AutoSize = true;
 			this->label5->Enabled = false;
-			this->label5->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label5->ForeColor = System::Drawing::Color::Blue;
 			this->label5->Location = System::Drawing::Point(86, 182);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(44, 16);
@@ -355,7 +355,7 @@ namespace HotelManagementSys {
 			// 
 			this->label7->AutoSize = true;
 			this->label7->Enabled = false;
-			this->label7->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label7->ForeColor = System::Drawing::Color::Blue;
 			this->label7->Location = System::Drawing::Point(86, 231);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(44, 16);
@@ -400,7 +400,7 @@ namespace HotelManagementSys {
 			// 
 			this->label9->AutoSize = true;
 			this->label9->Enabled = false;
-			this->label9->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label9->ForeColor = System::Drawing::Color::Blue;
 			this->label9->Location = System::Drawing::Point(86, 280);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(44, 16);
@@ -445,7 +445,7 @@ namespace HotelManagementSys {
 			// 
 			this->label11->AutoSize = true;
 			this->label11->Enabled = false;
-			this->label11->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label11->ForeColor = System::Drawing::Color::Blue;
 			this->label11->Location = System::Drawing::Point(86, 326);
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(51, 16);
@@ -490,7 +490,7 @@ namespace HotelManagementSys {
 			// 
 			this->label13->AutoSize = true;
 			this->label13->Enabled = false;
-			this->label13->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label13->ForeColor = System::Drawing::Color::Blue;
 			this->label13->Location = System::Drawing::Point(86, 374);
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(51, 16);
@@ -535,7 +535,7 @@ namespace HotelManagementSys {
 			// 
 			this->label15->AutoSize = true;
 			this->label15->Enabled = false;
-			this->label15->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label15->ForeColor = System::Drawing::Color::Blue;
 			this->label15->Location = System::Drawing::Point(86, 422);
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(51, 16);
@@ -580,7 +580,7 @@ namespace HotelManagementSys {
 			// 
 			this->label17->AutoSize = true;
 			this->label17->Enabled = false;
-			this->label17->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label17->ForeColor = System::Drawing::Color::Blue;
 			this->label17->Location = System::Drawing::Point(86, 471);
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(51, 16);
@@ -625,7 +625,7 @@ namespace HotelManagementSys {
 			// 
 			this->label19->AutoSize = true;
 			this->label19->Enabled = false;
-			this->label19->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label19->ForeColor = System::Drawing::Color::Blue;
 			this->label19->Location = System::Drawing::Point(86, 518);
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(51, 16);
@@ -700,7 +700,7 @@ namespace HotelManagementSys {
 			// 
 			this->label22->AutoSize = true;
 			this->label22->Enabled = false;
-			this->label22->ForeColor = System::Drawing::Color::LimeGreen;
+			this->label22->ForeColor = System::Drawing::Color::Blue;
 			this->label22->Location = System::Drawing::Point(98, 64);
 			this->label22->Name = L"label22";
 			this->label22->Size = System::Drawing::Size(32, 16);
