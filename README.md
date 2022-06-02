@@ -1,4 +1,5 @@
-Hotel Management System in C++
+<h1 style="text-align:center;">Hotel Management System in C++</h1>
+
 ![image](https://user-images.githubusercontent.com/88619994/171572643-1c43b760-9907-411e-b979-a56f5533bd51.png)
 ![image](https://user-images.githubusercontent.com/88619994/171572699-b8e4e7b4-ccf5-4094-a6a4-c95f2aabb5d2.png)
 ![image](https://user-images.githubusercontent.com/88619994/171572810-36ed12fd-27a6-43af-b9f4-ee547ea0f8bf.png)
